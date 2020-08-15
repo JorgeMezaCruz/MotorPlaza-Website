@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(../images/Contacto.jpg);
+	background-size: cover;
+	background-position: center;	
+	font-family: sans-serif;
+}
+
+header {
+     width: 100%;
+	height: 80px;
+}
+
+
+.content {
+      width: 94%;
+      margin: 0em auto;
+		margin-top: 6em;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 40px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 35px;
+      letter-spacing: 2px;
+	font-family: SerpentineBoldItalic;
+	
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 40px;
+	font-family: SerpentineBoldItalic;
+}
+
+nav ul {
+      line-height: 40px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+	
+}
+
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+
+
+nav ul li a::after {
+  	content: "";
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+}
+
+
+nav ul li a:hover::after {
+width: 100%;
+transition: width .3s;
+}
+
+.menu-icon {
+      line-height: 70px;
+      width: 100%;
+      background: #00113A;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+.contact-title{
+	margin-top: 100px;
+	color:#FFF8F8;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+
+.contact-title h2{
+	font-size: 16px;
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom:16px; 
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #000136;
+	border-color: transparent;
+	color: antiquewhite;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+
+form .submit:hover{
+	background-color:#151652;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

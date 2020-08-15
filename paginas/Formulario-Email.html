@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/style-formulario-contacto.css">
+<link rel="stylesheet" href="../css/fuentes.css">
+
+<title>Formulario E-mail</title>
+</head>
+	
+<body>
+	            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                       <div class="logo">
+                              Motor Plaza
+                        </div>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="Marcas.html">Marcas</a></li>
+                                    <li><a href="Galeria.html">Galeria</a></li>
+								  	<li><a href="Contacto.html" target="_blank">Contacto</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+	<div class="contact-title">
+	<h1>Contactenos</h1>
+	</div>
+	<div class="contact-form">
+	<form id="contact-form" method="post" action="">
+		<input type="text" id="txtnombre" name="name" autocomplete="off"  class="form-control" placeholder="Nombres y Apellidos" required>
+		<br>
+		<input type="email" id="txtcorreo" name="email" autocomplete="off" class="form-control" placeholder="Email" required>
+		<br>
+		<input type="celular" name="celular" autocomplete="off" class="form-control" placeholder="Celular" required>
+		<br>
+		<textarea name="mensaje" class="form-control" placeholder="Mensaje" row="4" required maxlength="300"></textarea><br>
+		
+		<input type="submit" class="form-control submit" value="Enviar Mensaje" onClick="validar()">
+	</form>
+	</div>
+	
+</body>
+<script src="../js/codigos-valida.js"></script>
+</html>

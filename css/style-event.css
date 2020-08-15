@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+	 	 background: #00113A;
+
+}
+
+header {
+      width: 100%;
+      height: 80px;
+ 	 background: #00113A;
+      background-size: cover;
+		font-family: SerpentineBoldItalic;
+
+}
+
+main{
+	position: absolute;
+   	width: 100%;
+	height: 80px;
+	background-color:#1039BC;
+}
+
+
+main .logo {
+      line-height: 40px;
+      position: absolute;
+      float: left;
+      margin: 16px 46px;
+      color:black;
+      font-weight: bold;
+      font-size: 35px;
+      letter-spacing: 2px;
+	font-family: SerpentineBoldItalic;
+	
+}
+
+
+.paraffos{
+	margin: 20px;
+margin-top: 100px;
+ 	 background: #00113A;
+color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.content {
+      width: 94%;
+      margin: 0em auto;
+		margin-top: 6em;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 40px;
+      position: absolute;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 35px;
+      letter-spacing: 2px;
+	font-family: SerpentineBoldItalic;
+	
+}
+
+nav {
+      position: absolute;
+      width: 100%;
+      line-height: 40px;
+}
+
+nav ul {
+      line-height: 40px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+	
+}
+
+nav.black ul {
+      background: #00113A;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+
+
+nav ul li a::after {
+  	content: "";
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+}
+
+
+nav ul li a:hover::after {
+width: 100%;
+transition: width .3s;
+}
+
+.menu-icon {
+      line-height: 70px;
+      width: 100%;
+      background: #00113A;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}

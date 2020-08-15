@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Motor Plaza</title>
+        <link rel="stylesheet" href="../css/slider.css">
+		<link rel="stylesheet" href="../css/style-index.css">
+		<link rel="stylesheet" href="../css/fuentes.css">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	
+	    <style>
+        .fg-slider { height: 570px;}
+    	</style>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+                  <nav>
+					   <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                       <div class="logo">
+                              Motor Plaza
+                        </div>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="Marcas.html">Marcas</a></li>
+                                    <li><a href="Galeria.html">Galeria</a></li>
+								  <li><a href="Contacto.html" target="_blank">Contacto</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+	
+    <div class="fg-slider" id="slider-1">
+        <div class="fg-content text-center"></div>
+        <img src="../images/Slide_1.jpg" alt="">
+     <img src="../images/Slide_2.jpg" alt="">
+        <img src="../images/Slide_3.jpg" alt="">
+   		
+	     <img src="../images/Slide_4.jpg" alt="">
+       <img src="../images/Slide_5.jpg" alt="">
+		<img src="../images/Slide_6.jpg" alt="">
+		
+   
+		  </div>
+
+    <script src="../js/slider.js"></script>
+    <script>
+        new FgSlider('slider-1', {
+            autoplay: true, // autoplay on / off
+            effect: 'fade', // fade, scale, slide, slide-top
+            duration: 4000, // duration till the next slide
+            bullets: true, // show / hide bullets
+        });
+    </script>
+<div class="content">
+				<div class="box">
+				<div class="imgBox">
+				</div>
+				<p>
+                “En MotorPlaza brindamos a los visitantes una variada opción de compra mediante la cual podrán comparar y probar los diversos modelos que se comercializan. Así como conocer los precios al instante, lo cual permitirá al cliente tomar una decisión de compra más cómoda e informada. Del mismo modo contaremos con el respaldo de entidades bancarias para el financiamiento de la compra de los vehículos ofertados”.
+
+                </p>
+				<h4>Rodrigo Ballesteros<br><span>Gerente General</span></h4>		</div>
+
+				<div class="box">
+				<div class="imgBox">
+				</div>
+				<p>
+				"Actualmente MotorPlaza cuenta con tres centros automotrices en el país, ubicados en el Mall Aventura Plaza Bellavista, Callao, en Arequipa y en el centro comercial de Trujillo. Motorplaza tiene un ambicioso plan de crecimiento y continuará abriendo nuevos centros automotrices a lo largo del país."
+                </p>
+				<h4>Juan Carlos Fernández<br><span>Gerente de Desarrollo</span></h4>		</div>
+				</div>
+		 
+	<footer>
+	   <div class="middle">
+      <a class="btn" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-google"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+	</footer>
+	
+	</div>
+	
+	
+	
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+				
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+      </script>
+
+</body>
+</html>
